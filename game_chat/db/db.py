@@ -5,7 +5,7 @@ from sqlalchemy import text
 from sqlalchemy.ext.asyncio import create_async_engine, AsyncSession, async_sessionmaker
 from sqlalchemy.orm import DeclarativeBase
 
-from db.config import data_base
+from game_chat.db.config import data_base
 
 
 class Base(DeclarativeBase):
